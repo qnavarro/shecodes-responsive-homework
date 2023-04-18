@@ -109,12 +109,24 @@ a:visited {
 @media (max-width: 600px) {
 	h1 {
 		font-size: 40px;
+		line-height: 1.5;
 	}
 	h2 {
-		font-size: 20px;
+		font-size: 18px;
 		margin-top: 5px;
 	}
-	.category {
+
+	.category,
+	.top {
 		display: none;
+	}
+	.btn {
+		display: block;
+		margin: auto;
+		background-color: #352351;
+	}
+	.description,
+	p {
+		text-align: center;
 	}
 }
