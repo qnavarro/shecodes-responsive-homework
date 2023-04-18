@@ -105,3 +105,16 @@ a:visited {
 	border: none;
 	color: white !important;
 }
+
+@media (max-width: 600px) {
+	h1 {
+		font-size: 40px;
+	}
+	h2 {
+		font-size: 20px;
+		margin-top: 5px;
+	}
+	.category {
+		display: none;
+	}
+}
